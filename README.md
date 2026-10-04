@@ -1,9 +1,9 @@
 # SinglePlayerKeepInventory
 
-## Setup
+A lightweight, server-only mod that lets you enable keep inventory for a specific player instead of the entire server. Perfect for balancing gameplay while keeping your relationship peaceful! Fully safe to use with popular gravestone mods to prevent any duplication.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+# Commands
+Op or console.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+/keepinventory on <player>, Enables keep inventory for a specific player.
+/keepinventory off <player>, Disables it.
