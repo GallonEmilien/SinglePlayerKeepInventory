@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "singleplayerkeepinventory",
+	"version": "${version}",
+	"name": "SinglePlayerKeepInventory",
+	"description": "This mod permits to enable keepinventory for a specific player (your gf for example)",
+	"authors": [
+		"Emilien Gallon"
+	],
+	"contact": {
+		"sources": "https://github.com/GallonEmilien/singleplayerkeepinventory"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/singleplayerkeepinventory/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"fr.gallonemilien.SinglePlayerKeepInventory"
+		]
+	},
+	"mixins": [
+		"singleplayerkeepinventory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
